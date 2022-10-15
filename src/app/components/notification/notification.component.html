@@ -1,0 +1,10 @@
+<p *ngIf="isSubmit">
+    <ngb-alert [type]="success"  [dismissible]="false">
+        <div class="container">
+            Comanda plasata cu succes!
+            <button type="button" name="button" class="close" (click)="closeAlert(alert)">
+                <i class="nc-icon nc-simple-remove"></i>
+            </button>
+        </div>
+    </ngb-alert>
+</p>
